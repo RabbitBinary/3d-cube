@@ -6,7 +6,7 @@ import dotenv from "dotenv"; // Import
 dotenv.config(); // <<< Načítanie .env HNEĎ TU
 
 // Import našej funkcie
-import { processTranscriptWithGemini } from "./src/gemini.js"; // <<< Skontrolujte cestu
+import { processTranscriptWithGemini } from "./api/gemini.js"; // <<< Skontrolujte cestu
 
 dns.setDefaultResultOrder("verbatim");
 

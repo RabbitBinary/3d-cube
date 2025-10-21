@@ -1,4 +1,4 @@
-import { processTranscriptWithGemini } from '../src/gemini';
+import { processTranscriptWithGemini } from './gemini';
 
 export default async function handler(request, response) {
   response.setHeader('Access-Control-Allow-Origin', '*');
