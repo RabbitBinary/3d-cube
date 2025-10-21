@@ -1,11 +1,6 @@
 [build]
-  command = "vite build"
+  functions = "netlify/functions"
   publish = "dist"
 
-[functions]
-  directory = "api"
-
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
+[dev]
+  functions = "netlify/functions"

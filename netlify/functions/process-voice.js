@@ -1,4 +1,4 @@
-import { processTranscriptWithGemini } from '../src/gemini.js';
+import { processTranscriptWithGemini } from '../../src/gemini.js';
 
 export const handler = async (event) => {
   const headers = {
