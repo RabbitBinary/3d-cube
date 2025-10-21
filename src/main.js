@@ -65,7 +65,7 @@ const colorPalette = {
   green: "#28a745",
   pink: "#e83e8c",
   yellow: "#ffc107",
-  red: "#C92020FF",
+  red: "#C92020",
 };
 
 // --- Mapovanie názvov ---
@@ -410,7 +410,7 @@ const voiceColorPalette = {
   zelená: "#28a745",
   ružová: "#e83e8c",
   žltá: "#ffc107",
-  červená: "#C92020FF",
+  červená: "#C92020",
   biela: "#ffffff",
   blue: "#007bff",
   orange: "#fd7e14",
@@ -418,7 +418,7 @@ const voiceColorPalette = {
   green: "#28a745",
   pink: "#e83e8c",
   yellow: "#ffc107",
-  red: "#C92020FF",
+  red: "#C92020",
   white: "#ffffff",
 };
 
