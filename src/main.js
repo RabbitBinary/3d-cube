@@ -296,7 +296,7 @@ const SpeechRecognition =
   window.SpeechRecognition || window.webkitSpeechRecognition;
 let recognition = null;
 let isListening = false;
-const BACKEND_URL = "/.netlify/functions/process-voice.js";
+const BACKEND_URL = "/.netlify/functions/process-voice";
 if (SpeechRecognition) {
   recognition = new SpeechRecognition();
   recognition.continuous = false;
