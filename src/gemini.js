@@ -42,6 +42,7 @@ Examples:
 "cube 06 reset color" -> {"action": "resetColor", "target": "Cube06", "axis": null, "value": null}
 "cube 09 reset scale" -> {"action": "resetScale", "target": "Cube09", "axis": null, "value": null}
 "cube 07 reset rotation" -> {"action": "resetRotation", "target": "Cube07", "axis": null, "value": null}
+"cube 03 red" -> {"action": "setColor", "target": "Cube03", "axis": null, "value": "red"}
 `;
     } else {
       // Slovenčina
@@ -60,6 +61,7 @@ Príklady:
 "kocka 06 reset farby" -> {"action": "resetColor", "target": "Cube06", "axis": null, "value": null}
 "kocka 09 reset mierky" -> {"action": "resetScale", "target": "Cube09", "axis": null, "value": null}
 "kocka 07 reset rotácie" -> {"action": "resetRotation", "target": "Cube07", "axis": null, "value": null}
+"kocka 03 červená" -> {"action": "setColor", "target": "Cube03", "axis": null, "value": "červená"}
 `;
     }
 
