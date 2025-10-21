@@ -22,7 +22,7 @@ export async function processTranscriptWithGemini(
 
   try {
     const model = genAI.getGenerativeModel({
-      model: "gemini-2.0-flash",
+      model: "gemini-flash-latest",
     });
     let languageInstruction, examples;
 
